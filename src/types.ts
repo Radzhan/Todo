@@ -4,5 +4,6 @@ export interface ResponseInner{
     id: string;
 }
 export interface Response {
-    id: ResponseInner;
+    title: string;
+    status: boolean;
 }
